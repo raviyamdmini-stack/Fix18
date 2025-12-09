@@ -1,0 +1,31 @@
+{
+  "name": "ʀᴀᴠɪʏᴀ ᴍᴅ",
+  "description": "Javascript WhatsApp bot made by bot name",
+  "logo": "https://i.ibb.co/pBh9D8rR/Supunmd.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "ʀᴀᴠɪʏᴀ ᴍᴅ ᴀʟɪᴠᴇ ɴᴏᴡ🎭",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
